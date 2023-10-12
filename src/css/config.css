@@ -1,0 +1,55 @@
+/* .settings-heading {
+  padding: 1em 0;
+}
+
+.kintoneplugin-input-text {
+  width: 20em;
+} */
+/* ============ */
+.settings-heading {
+  padding: 1em 0;
+}
+
+.kintoneplugin-input-text {
+  width: 100%;
+}
+
+.kintoneplugin-table-th{
+  width: 5rem;
+}
+
+.drag-handle {
+  cursor: move;
+  margin-right: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+table td:first-child { 
+  border-bottom-style: hidden;
+  border-top-style: hidden;
+  border-left-style: hidden;
+}
+
+.drag-handle{
+  border-radius: 15%;
+  height: 25px;
+  margin-top: 1rem;
+  background: transparent;
+}
+
+.kintoneplugin-title {
+  margin-left: 4.5rem;
+}
+
+#select-1 {
+  margin-left: 4.5rem;
+}
+
+.kintoneplugin-row {
+  margin-left: 4.5rem;
+}
+

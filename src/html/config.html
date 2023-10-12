@@ -1,0 +1,320 @@
+<section class="settings">
+  <h2 class="settings-heading">Settings for Translate_plugin</h2>
+  <p class="kintoneplugin-desc">This message is displayed on the app page after the app has been updated.</p>
+  <form class="js-submit-settings">
+    <p class="kintoneplugin-row">
+      <label for="message">
+        Message:
+        <input type="text" class="js-text-message kintoneplugin-input-text">
+      </label>
+    </p>
+    <p class="kintoneplugin-row">
+        <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
+        <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+  </form>
+</section>
+
+<!-- ============ -->
+<section class="settings">
+  <!-- <h2 class="settings-heading">Settings for Sample Plug-in</h2>
+  <p class="kintoneplugin-desc">This message is displayed on the app page after the app has been updated.</p> -->
+  <form class="js-submit-settings">
+    <div class="block">
+      <div class="kintoneplugin-title">Language</div>
+      <div class="kintoneplugin-select-outer">
+        <div class="kintoneplugin-select" id="select-1">
+          <select id="field-selection">
+            <option value="null">-----</option>
+            <option value="ja">ja</option>
+            <option value="eg">en</option>
+            <option value="lo">lo</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="kintoneplugin-title">Language numbers</div>
+    <!-- table lang -->
+    <div class="kintoneplugin-input-outer">
+      <table class="kintoneplugin-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="kintoneplugin-table-th"><span class="title">NUMBER</th>
+            <th class="kintoneplugin-table-th"><span class="title">LANGUAGE</span></th>
+          </tr>
+        </thead>
+        <tbody id="kintoneplugin-setting-tbody">
+          <tr>
+            <td><button class="drag-handle">&#9776;</button></td>
+            <!-- data 1 -->
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column3" value="1" id="prefix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column4" value="ja" id="suffix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td class="kintoneplugin-table-td-operation cf-operation-column">
+              <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row" id="plus"></button>
+              <button type="button" class="kintoneplugin-button-remove-row-image removeList"
+                title="Delete this row" id="minus"></button>
+            </td>
+          </tr>
+          <!-- date 2 -->
+          <tr>
+            <td><button class="drag-handle">&#9776;</button></td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column3" value="2" id="prefix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column4" value="eg" id="suffix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td class="kintoneplugin-table-td-operation cf-operation-column">
+              <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row"></button>
+              <button type="button" class="kintoneplugin-button-remove-row-image removeList"
+                title="Delete this row"></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- table lang -->
+
+    <!-- table lang space -->
+    <div class="kintoneplugin-title">Language Spaces</div>
+    <div class="kintoneplugin-input-outer">
+      <table class="kintoneplugin-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="kintoneplugin-table-th"><span class="title">ITEM <span
+                  class="kintoneplugin-require">*</span></span></th>
+            <th class="kintoneplugin-table-th"><span class="title">Button splacment space</span></th>
+            <th class="kintoneplugin-table-th"><span class="title">Transition when updating</span></th>
+            <th class="kintoneplugin-table-th"><span class="title">1</span></th>
+            <th class="kintoneplugin-table-th"><span class="title">2</span></th>
+            <th class="kintoneplugin-table-th"><span class="title">3</span></th>
+            <th class="kintoneplugin-table-th-blankspace"></th>
+          </tr>
+        </thead>
+        <tbody id="kintoneplugin-setting-tbody">
+          <tr>
+            <td><button class="drag-handle">&#9776;</button></td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column3" value="ITEM1" id="prefix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="SP_NAME">SP_NAME</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="">No, I don't</option>
+                        <option value="">Update</option>
+                        <option value="">Forced update</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="">NAME_ja</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="">NAME_en</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="">NAME_lo</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+
+            <!-- button add row and delete row -->
+            <td style="display: flex;" class="kintoneplugin-table-td-operation cf-operation-column">
+              <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row" id="plus"></button>
+              <button type="button" class="kintoneplugin-button-remove-row-image removeList"
+                title="Delete this row" id="minus"></button>
+            </td>
+            <!-- button add row and delete row -->
+
+          </tr>
+          <!-- date 2 -->
+          <tr>
+            <td><button class="drag-handle">&#9776;</button></td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <span>
+                    <input class="kintoneplugin-input-text cf-column3" value="ITEM1" id="prefix_field_column" />
+                  </span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                        <option value="SP_NAME">SP_NAME</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="kintoneplugin-table-td-control">
+                <div class="kintoneplugin-table-td-control-value">
+                  <div class="kintoneplugin-input-outer">
+                    <div class="kintoneplugin-select">
+                      <select name="field_dropdown_column" id="select_field_column" class="cf-column1">
+                        <option value="">-----</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <!-- date 2 -->
+
+            <!-- button add row and delete row -->
+            <td style="display: flex;" class="kintoneplugin-table-td-operation cf-operation-column">
+              <button type="button" class="kintoneplugin-button-add-row-image addList" title="Add row"></button>
+              <button type="button" class="kintoneplugin-button-remove-row-image removeList"
+                title="Delete this row"></button>
+            </td>
+            <!-- button add row and delete row -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- table lang space -->
+
+    <!-- button -->
+    <p class="kintoneplugin-row">
+      <button type="button" class="js-cancel-button kintoneplugin-button-dialog-cancel">Cancel</button>
+      <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+    <!-- button -->
+  </form>
+</section>

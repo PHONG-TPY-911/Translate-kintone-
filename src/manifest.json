@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "js/jquery-2.2.4.min.js",
+      "js/lang.js",
+      "js/kuc.min.js",
+      "js/axios.min.js",
+      "js/Old1_desktop.js",
+      "js/sweetalert2.all.js"
+  
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/desktop.css"
+      
+    ]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/lang.js",
+      "js/jquery-2.2.4.min.js",
+      "js/config.js",
+      "js/sweetalert2.all.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+      "message"
+    ]
+  },
+  "name": {
+    "en": "Translate_plugin"
+  },
+  "description": {
+    "en": "Translate_plugin"
+  }
+}
